@@ -68,7 +68,7 @@ function SlideComp() {
               warehouses.
             </p>
           </div>
-          <div className=" w-full h-auto bg-cover bg-center slideImgg p-8 mt-4">
+          <div className=" w-full h-auto bg-cover bg-center slideImggg p-8 mt-4">
             <p className=" bg-[#36A7A7] rounded-md lg:w-[30%] md:w-[50%] w-full  text-black mx-auto text-center text-[32px] font-poppins font-bold ">
               COMMERCIAL
             </p>

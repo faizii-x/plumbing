@@ -38,3 +38,98 @@ body::-webkit-scrollbar {
 .slideImggg{
   background-image: url("../src/assets/png/slide3.png");
 }
+.class-hiden{
+  display: none;
+}
+.class-two:hover .class-hiden{
+  display: block;
+  transition: 0.5s linear;
+}
+.class-two{
+  display: flex;
+  justify-content: center;
+  align-items: center; transition: .5s;
+}
+
+.class-two:hover{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+}
+
+
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+.custom-button {
+  position: relative;
+  font-weight: bold;
+  color: #5DC4C4;
+  background-color: white;
+  /* border: 2px solid #36a7a7; */
+  border-radius: 35px;
+  padding: 1rem ;
+  overflow: hidden;
+}
+
+.custom-button::before,
+.custom-button::after {
+  content: "";
+  margin-top: 3px;
+  margin-bottom: 3px;
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: #5DC4C4;
+}
+
+.custom-button::before {
+  top: 0;
+  left: -100%;
+  animation: lineAnimationLeft 1.5s ease infinite;
+}
+
+.custom-button::after {
+  bottom: 0;
+  right: -100%;
+  animation: lineAnimationRight 1.5s ease infinite;
+}
+
+@keyframes lineAnimationLeft {
+  0% {
+    transform: scaleX(0);
+    left: -100%;
+  }
+  50% {
+    transform: scaleX(1);
+    left: 0;
+  }
+  100% {
+    transform: scaleX(0);
+    left: 100%;
+  }
+}
+
+@keyframes lineAnimationRight {
+  0% {
+    transform: scaleX(0);
+    right: -100%;
+  }
+  50% {
+    transform: scaleX(1);
+    right: 0;
+  }
+  100% {
+    transform: scaleX(0);
+    right: 100%;
+  }
+}
