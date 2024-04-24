@@ -1,0 +1,25 @@
+import React from 'react'
+
+function Bigimage() {
+  return (
+    <>
+<h2 className="text-[22px] font-poppins font-semibold text-center mt-6">Our Other Main Service</h2>
+
+    
+    <div className=" w-[90%] mx-auto rounded-3xl h-auto bg-cover bg-center imagebgdemoo p-8 mb-6">
+        <div  className='bg-white w-[170px] p-3 flex justify-center items-center mx-auto'>
+    <h4 className='text-[22px] font-bold'>PLUMBING</h4>
+    </div>
+    <p className='text-[28px] font-medium text-center text-white'>Experience tailored plumbing solutions for your needs. Our precise planning and expert execution ensure safety and efficiency in every project.</p>
+
+<div className='bg-[#36A7A7] w-[180px] rounded-md mx-auto mt-3 flex justify-center items-center p-3'>
+<button className='font-semibold'>View More</button>
+</div>
+    </div>
+    
+    
+    </>
+  )
+}
+
+export default Bigimage

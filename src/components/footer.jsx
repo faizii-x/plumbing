@@ -6,14 +6,17 @@ import Facebook from "../../src/assets/svg/facebook.svg";
 import Locate from "../../src/assets/svg/locate.svg";
 import Call from "../../src/assets/svg/call.svg";
 import Mess from "../../src/assets/svg/mess.svg";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <>
-      <div className="bg-[#071818] mt-2 p-3">
+      <div className="bg-[#071818] p-3">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-[90%] container mx-auto">
           <div className="">
+            <Link to="/">
             <img src={Logo} alt="" />
+            </Link>
             <p className="text-[14px] font-poppins font-light text-white">
               Bringing Your Demolition and Plumbing Projects to Life. Trust our
               team of skilled professionals to deliver top-quality results,
@@ -35,15 +38,22 @@ function Footer() {
               Quick Links
             </p>
             <div className="mt-6">
-              <p className="text-white text-[16px] font-normal underline">
-                Home
-              </p>
-              <p className="text-white text-[16px] font-normal underline mt-3">
-                About us
-              </p>
-              <p className="text-white text-[16px] font-normal underline mt-3">
-                Contact us
-              </p>
+              <Link to="/">
+                <p className="text-white text-[16px] font-normal underline">
+                  Home
+                </p>
+              </Link>
+              <Link to="/about">
+                <p className="text-white text-[16px] font-normal underline mt-3">
+                  About us
+                </p>
+              </Link>
+              <Link to="/contact">
+                {" "}
+                <p className="text-white text-[16px] font-normal underline mt-3">
+                  Contact us
+                </p>
+              </Link>
             </div>
           </div>
           <div className="">
@@ -51,12 +61,16 @@ function Footer() {
               Our Services
             </p>
             <div className="mt-6">
-              <p className="text-white text-[16px] font-normal underline">
-                Demolition
-              </p>
-              <p className="text-white text-[16px] font-normal underline mt-3">
-                Plumbing
-              </p>
+              <Link to="/demolition">
+                <p className="text-white text-[16px] font-normal underline">
+                  Demolition
+                </p>
+              </Link>
+              <Link to="/plumbing">
+                <p className="text-white text-[16px] font-normal underline mt-3">
+                  Plumbing
+                </p>
+              </Link>
             </div>
           </div>
           <div className="">
@@ -85,8 +99,8 @@ function Footer() {
         <p className="text-white text-center">
           Copyright © 2024 A1 demolition & Plumbing Designed By{" "}
           <span className="cursor-pointer">
-          <span className="text-[#008000] font-semibold">MF</span>{" "}
-          <span className="text-[#FF6400] font-semibold">Bzone</span>{" "}
+            <span className="text-[#008000] font-semibold">MF</span>{" "}
+            <span className="text-[#FF6400] font-semibold">Bzone</span>{" "}
           </span>
         </p>
       </div>

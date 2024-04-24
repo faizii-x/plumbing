@@ -8,59 +8,87 @@
 body::-webkit-scrollbar {
   display: none;
 }
+.btny{
+  width: 280px;
+  padding: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: linear-gradient(120deg, #36A7A7, #36A7A7);
+}
 
 
-.imagebg{
+.imagebgdemoo {
+  background-image: url("../src/assets/png/deep.png");
+}
+
+.bgimagebanner {
+  background-image: url("../src/assets/png/hidebg.png");
+}
+
+.imagebgabout {
+  background-image: url("../src/assets/png/aboutimg.png");
+}
+.imagebgdemo {
+  background-image: url("../src/assets/png/demo.png");
+}
+
+
+.imagebg {
   background-image: url("../src/assets/png/wall1.png");
 }
-.imagebgg{
+.imagebgg {
   background-image: url("../src/assets/png/wall2.png");
 }
-.bg-opacity-set{
-  background-color: rgba(255, 255, 255, 0.692);
+.bg-opacity-set {
+  background-color: rgba(243, 238, 238, 0.726);
 }
 
-
-
-.backimg{
+.backimg {
   background-image: url("../src/assets/png/back1.png");
 }
-.backimg1{
+.backimg1 {
   background-image: url("../src/assets/png/back2.png");
 }
-
-.slideImg{
+.imagebgAboutt {
+  background-image: url("../src/assets/png/pic.png");
+}
+.imagebgcontact {
+  background-image: url("../src/assets/png/contimg.png");
+}
+.slideImg {
   background-image: url("../src/assets/png/slide1.png");
 }
-.slideImgg{
+.slideImgg {
   background-image: url("../src/assets/png/slide2.png");
 }
-.slideImggg{
+.slideImggg {
   background-image: url("../src/assets/png/slide3.png");
 }
-.class-hiden{
+.class-hiden {
   display: none;
 }
-.class-two:hover .class-hiden{
+.class-two:hover .class-hiden {
   display: block;
   transition: 0.5s linear;
 }
-.class-two{
+.class-two {
   display: flex;
   justify-content: center;
-  align-items: center; transition: .5s;
+  align-items: center;
+  transition: 0.5s;
 }
 
-.class-two:hover{
+.class-two:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: .5s;
+  transition: 0.5s;
 }
-
-
-
 
 .button-container {
   display: flex;
@@ -73,11 +101,11 @@ body::-webkit-scrollbar {
 .custom-button {
   position: relative;
   font-weight: bold;
-  color: #5DC4C4;
+  color: #5dc4c4;
   background-color: white;
   /* border: 2px solid #36a7a7; */
   border-radius: 35px;
-  padding: 1rem ;
+  padding: 1rem;
   overflow: hidden;
 }
 
@@ -89,7 +117,7 @@ body::-webkit-scrollbar {
   position: absolute;
   width: 100%;
   height: 5px;
-  background-color: #5DC4C4;
+  background-color: #5dc4c4;
 }
 
 .custom-button::before {
@@ -131,5 +159,55 @@ body::-webkit-scrollbar {
   100% {
     transform: scaleX(0);
     right: 100%;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.137);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.modal-image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes animateIcon {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animated-icon {
+  animation: animateIcon 1s ease forwards infinite;
+}
+
+
+.class-set-message-input{
+width: 80%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .class-set-message-input {
+    width: 90%;
   }
 }

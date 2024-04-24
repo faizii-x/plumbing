@@ -16,7 +16,7 @@ function ContactHome() {
                 <input type="text" placeholder='Email' className='rounded-md'/>
                 </div>
                 <div className='flex justify-start gap-2 mt-2'>
-                <input type="text" placeholder='Email' className='rounded-md lg:w-[80%] w-[70%]'/>
+                <input type="text" placeholder='Message' className='rounded-md lg:w-[80%] w-[70%]'/>
                 <div className='lg:w-[20%] w-[30%] mx-auto bg-[#36A7A7] flex justify-center items-center rounded-md cursor-pointer'>
                 <button className='font-semibold'>Submit</button>
                 </div>
