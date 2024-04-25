@@ -3,8 +3,9 @@ import Groupp from "../../src/assets/png/groupp.png";
 import Images from "../../src/assets/png/images.png";
 import Message from "../../src/assets/png/message.png";
 import Call from "../../src/assets/png/call.png";
+import { Link } from "react-router-dom";
 
-function Choose(props) {
+function Choose() {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-3 w-[90%] mx-auto">
@@ -39,9 +40,11 @@ function Choose(props) {
             plumbing solutions. We take pride in delivering excellence in every
             project, ensuring your complete contentment.
           </p>
+          <Link to="/about">
           <div className="text-[#36a7a7] flex justify-center items-center lg:w-[20%] md:w-[30%] w-[50%] mt-6 cursor-pointer hover:text-white rounded-md hover:bg-[#36a7a7] border border-[#36a7a7] p-3">
             <button className="">View More</button>
           </div>
+          </Link>
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 mx-auto self-center">
           <img src={Groupp} alt="" />

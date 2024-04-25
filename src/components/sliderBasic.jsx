@@ -10,7 +10,7 @@ import YellowStar from "../../src/assets/svg/yellowStar.svg";
 import GrayStar from "../../src/assets/svg/grayStar.svg";
 
 function SlideBasic() {
-  var settings = {
+  var settings = {  
     dots: false,
     arrows: true,
     infinite: true,
@@ -25,7 +25,7 @@ function SlideBasic() {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {
@@ -52,7 +52,7 @@ function SlideBasic() {
         <h2 className="text-[28px] font-roboto font-bold text-center pt-[30px]">
         What Our <span className="text-[#36A7A7] font-bold">Customers</span> have to say
         </h2>
-        <div className="p-8 w-[80%] mx-auto">
+        <div className="p-8 lg:w-[80%] w-full mx-auto">
           <Slider {...settings}>
             <div className="">
               <div className="bg-white rounded-xl p-6 h-auto ">

@@ -20,7 +20,7 @@ function AboutImg() {
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          className="w-16 h-16 text-white mx-auto mt-6 animated-icon"
+          className="w-16 h-16 text-white mx-auto mt-16 animated-icon"
         >
           <path
             stroke-linecap="round"

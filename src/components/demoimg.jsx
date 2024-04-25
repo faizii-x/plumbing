@@ -1,6 +1,6 @@
 import React from "react";
 
-function Demoimg() {
+function Demoimg() {       
   return (
     <>
       <div className=" w-full h-auto bg-cover bg-center imagebgdemo lg:p-[140px] p-8">
@@ -9,7 +9,7 @@ function Demoimg() {
             DEMOLITION
           </p>
         </div>
-        <p className=" text-white text-[20px] font-poppins font-normal mt-3 lg:w-[70%] w-full mx-auto">
+        <p className=" text-white text-[20px] font-poppins font-semibold mt-3 lg:w-[70%] w-full mx-auto">
           Explore customized Demolition solutions designed just for you. Our
           careful planning and expert execution ensure safety and efficiency
           throughout every project.
@@ -21,7 +21,7 @@ function Demoimg() {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="w-16 h-16 text-white mx-auto mt-6 animated-icon"
+            className="w-16 h-16 text-white mx-auto mt-16 animated-icon"
           >
             <path
               stroke-linecap="round"

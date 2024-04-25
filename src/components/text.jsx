@@ -1,5 +1,6 @@
 import React from "react";
 import One from "../../src/assets/png/one.png";
+import { Link } from "react-router-dom";
 
 function Text() {
   return (
@@ -18,20 +19,17 @@ function Text() {
             let us handle your demolition and plumbing needs with expertise and
             care.
           </p>
-
-          <div className="text-[#36a7a7] flex justify-center items-center lg:w-[20%] md:w-[30%] w-[50%] mt-6 cursor-pointer hover:text-white rounded-md hover:bg-[#36a7a7] border border-[#36a7a7] p-3">
-            <button className="">View More</button>
-          </div>
+          <Link to="/about">
+            <div className="text-[#36a7a7] flex justify-center items-center lg:w-[20%] md:w-[30%] w-[50%] mt-6 cursor-pointer hover:text-white rounded-md hover:bg-[#36a7a7] border border-[#36a7a7] p-3">
+              <button className="">View More</button>
+            </div>
+          </Link>
         </div>
         <div className="col-span-1 md:col-span-2 lg:col-span-1 mx-auto">
           <img src={One} alt="" />
         </div>
       </div>
       {/* ................................ */}
-
-
-
-
     </>
   );
 }

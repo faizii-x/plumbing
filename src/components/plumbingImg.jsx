@@ -1,16 +1,16 @@
 import React from "react";
 
-function ContactImg() {
+function PlumbImg() {
   return (
     <>
-      <div className=" w-full h-auto bg-cover bg-center imagebgcontact  lg:p-[140px] p-8 ">
-        <div className="flex justify-center items-center bg-white w-[240px] mx-auto mt-8">
-          <p className=" text-black text-[33px] font-poppins font-semibold">
-            CONTACT US
+      <div className=" w-full h-auto bg-cover bg-center imagebgplum lg:p-[140px] p-8">
+        <div className="flex justify-center items-center bg-white w-[200px] mx-auto mt-8">
+          <p className=" text-black text-[33px] font-poppins font-semibold ">
+            PLUMBING
           </p>
         </div>
-        <p className=" text-white text-[20px] font-poppins font-normal mt-3 lg:w-[70%] w-full mx-auto">
-        Do you have any questions or need assistance? Don't hesitate to reach out. Send us a message, and let's begin the conversation.
+        <p className=" text-white text-[20px] font-poppins font-semibold mt-3 lg:w-[70%] w-full mx-auto">
+        Experience tailored plumbing solutions for your needs. Our precise planning and expert execution ensure safety and efficiency in every project."
         </p>
         <div className="">
           <svg
@@ -33,4 +33,4 @@ function ContactImg() {
   );
 }
 
-export default ContactImg;
+export default PlumbImg;

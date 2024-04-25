@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Demoimg from '../components/demoimg'
 import DemoCards from '../components/demoCards'
 import Bigimage from '../components/bigimage'
@@ -7,6 +7,15 @@ import ContactHome from '../components/contactHome'
 import SlideBasic from '../components/sliderBasic'
 
 function Demolition() {
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
+
+
   return (
     <>
     

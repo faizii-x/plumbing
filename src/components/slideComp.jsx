@@ -41,7 +41,7 @@ function SlideComp() {
 
   return (
     <>
-      <h2 className="text-[22px] font-poppins font-semibold text-center mt-6">
+      <h2 className="text-[22px] font-poppins font-semibold text-center mt-6 ">
         We handle projects of all sizes, covering...
       </h2>
       <div className="slider-container ">

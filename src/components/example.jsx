@@ -1,10 +1,21 @@
-// import { useState } from "react";
+import { useState } from "react";
 import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import Logo from "../../src/assets/svg/logo.svg";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Example({ open, setOpen }) {
+  const [activeLink, setActiveLink] = useState(null);
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
+
   return (
     <Transition.Root show={open} as={Fragment}>
       <Dialog as="div" className="relative z-50" onClose={setOpen}>
@@ -69,19 +80,85 @@ export default function Example({ open, setOpen }) {
                     <div className="container grid grid-cols-1 p-3">
                       <img src={Logo} />
 
-                      <p className="hover:text-hover  text-white pt-5">Home</p>
+                      <Link to="/" onClick={() => setActiveLink("home")}>
+                        <p
+                          className={`text-white text-[16px] mt-3 font-semibold cursor-pointer ${
+                            activeLink === "home"
+                              ? "text-[#36A7A7]"
+                              : "hover:text-[#36A7A7]"
+                          }`}
+                        >
+                          Home
+                        </p>
+                      </Link>
 
-                      <p className="hover:text-hover  text-white pt-5">
-                        Service
-                      </p>
+                      <div
+                className="relative"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <div className="flex justify-start mt-4">
+                  <p className="text-white text-[16px] font-semibold hover:text-[#36A7A7] cursor-pointer">
+                    Services
+                  </p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    className="w-4 h-4 mt-[6px] text-white"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </div>
+            
+                {isHovered && (
+                  <>
+                  <div className="absolute bg-[#36A7A7] rounded-md w-[160px] shadow-lg p-8 mt-1 z-10">
+                    <Link to="/demolition" onClick={() => setActiveLink("demolition")}>
+                    <p className={`text-[16px] font-medium text-black ${activeLink === "Demolition" ? "text-black" : "hover:text-white hover:font-bold"}`}>Demolition</p>
+                    </Link>
+                    <Link to="/plumbing" onClick={() => setActiveLink("plumbing")}>
+                    <p className={`text-[16px] font-medium text-black mt-2 ${activeLink === "plumbing" ? "text-black" : "hover:text-white hover:font-bold"}`}>Plumbing</p>
+                    </Link>
+                  </div>
+                  
+                  </>
+             )}
+            
+              </div>
 
-                      <p className="hover:text-hover font-montserrat text-white pt-5">
-                        About Us
-                      </p>
+                      <Link to="/about" onClick={() => setActiveLink("about")}>
+                        <p
+                          className={`text-white text-[16px] mt-4 font-semibold cursor-pointer ${
+                            activeLink === "about"
+                              ? "text-[#36A7A7]"
+                              : "hover:text-[#36A7A7]"
+                          }`}
+                        >
+                          About Us
+                        </p>
+                      </Link>
 
-                      <p className="hover:text-hover font-montserrat text-white pt-5">
-                        Contact
-                      </p>
+                      <Link
+                        to="/contact"
+                        onClick={() => setActiveLink("contact")}
+                      >
+                        <p
+                          className={`text-white text-[16px] mt-4 font-semibold cursor-pointer ${
+                            activeLink === "contact"
+                              ? "text-[#36A7A7]"
+                              : "hover:text-[#36A7A7]"
+                          }`}
+                        >
+                          Contact Us
+                        </p>
+                      </Link>
                     </div>
                   </div>
                 </Dialog.Panel>

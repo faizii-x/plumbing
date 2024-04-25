@@ -7,7 +7,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
   const handleOnClose = () => setOpen(false);
   const [isHovered, setIsHovered] = useState(false);
-
+  const [activeLink, setActiveLink] = useState(null);
 
   const handleMouseEnter = () => {
     setIsHovered(true);
@@ -21,14 +21,14 @@ function Navbar() {
       <div className="bg-opacity-set fixed z-20 w-full h-auto">
         <div className="flex justify-between ml-16 mr-16">
           <div>
-            <Link to="/">
-              <img src={Logo} alt="" className="w-full h-[60px]" />
+            <Link to="/" onClick={() => setActiveLink("home")}>
+              <img src={Logo} alt="" className={`w-full h-[60px]  ${activeLink === "home" ? "text-[#36A7A7]" : "hover:text-[#36A7A7]"}`} />
             </Link>
           </div>
           <div className="self-center md:block hidden">
             <div className="flex justify-start gap-8 ">
-              <Link to="/">
-                <p className="text-[#252525] text-[16px] font-semibold hover:text-[#15A7AD] cursor-pointer">
+              <Link to="/" onClick={() => setActiveLink("home")}>
+                <p className={`text-[#252525] text-[16px] font-semibold cursor-pointer ${activeLink === "home" ? "text-[#36A7A7]" : "hover:text-[#36A7A7]"}`}>
                   Home
                 </p>
               </Link>
@@ -39,7 +39,7 @@ function Navbar() {
                 onMouseLeave={handleMouseLeave}
               >
                 <div className="flex justify-start">
-                  <p className="text-[#252525] text-[16px] font-semibold hover:text-[#15A7AD] cursor-pointer">
+                  <p className="text-[#252525] text-[16px] font-semibold hover:text-[#36A7A7] cursor-pointer">
                     Services
                   </p>
                   <svg
@@ -60,12 +60,12 @@ function Navbar() {
             
                 {isHovered && (
                   <>
-                  <div className="absolute bg-[#36A7A7] rounded-md w-[160px] shadow-lg p-8 mt-1 z-10">
-                    <Link to="/demolition">
-                    <p className="text-[16px] font-medium text-black hover:text-white hover:font-bold">Demolition</p>
+                  <div className="absolute bg-[#36A7A7] rounded-md w-[160px] shadow-lg p-4 border z-10">
+                    <Link to="/demolition" onClick={() => setActiveLink("demolition")} >
+                    <p className={`text-[16px] font-medium text-black ${activeLink === "Demolition" ? "text-black" : "hover:text-white hover:font-bold"}`}>Demolition</p>
                     </Link>
-                    <Link to="/plumbing">
-                    <p className="text-[16px] font-medium text-black hover:text-white hover:font-bold mt-2">Plumbing</p>
+                    <Link to="/plumbing" onClick={() => setActiveLink("plumbing")}>
+                    <p className={`text-[16px] font-medium text-black mt-2 ${activeLink === "plumbing" ? "text-black" : "hover:text-white hover:font-bold"}`}>Plumbing</p>
                     </Link>
                   </div>
                   
@@ -73,13 +73,13 @@ function Navbar() {
              )}
             
               </div>
-              <Link to="/about">
-                <p className="text-[#252525] text-[16px] font-semibold hover:text-[#15A7AD] cursor-pointer">
+              <Link to="/about" onClick={() => setActiveLink("about")}>
+                <p className={`text-[#252525] text-[16px] font-semibold cursor-pointer ${activeLink === "about" ? "text-[#36A7A7]" : "hover:text-[#36A7A7]"}`}>
                   About Us
                 </p>
               </Link>
-              <Link to="/contact">
-                <p className="text-[#252525] text-[16px] font-semibold hover:text-[#15A7AD] cursor-pointer">
+              <Link to="/contact" onClick={() => setActiveLink("contact")}>
+                <p className={`text-[#252525] text-[16px] font-semibold cursor-pointer ${activeLink === "contact" ? "text-[#36A7A7]" : "hover:text-[#36A7A7]"}`}>
                   Contact Us
                 </p>
               </Link>

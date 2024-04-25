@@ -1,11 +1,12 @@
-import React from "react";
-import { DEMOLITION_CARDS } from "../data";
+import React from 'react'
+import { PLUMBING_CARDS } from '../data'
 
-function DemoCards() {
+function PlumbCards() {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 container mx-auto w-[80%] mt-6 mb-6  ">
-        {DEMOLITION_CARDS.map((x) => (
+    
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 container mx-auto w-[80%] mt-6 mb-6  ">
+        {PLUMBING_CARDS.map((x) => (
           <>
             <div className=" relative hover:opacity-80 mx-auto">
               <img src={x.img} alt="" />
@@ -16,8 +17,10 @@ function DemoCards() {
           </>
         ))}
       </div>
+    
+    
     </>
-  );
+  )
 }
 
-export default DemoCards;
+export default PlumbCards

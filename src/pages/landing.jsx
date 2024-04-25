@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Hero from "../components/hero";
 import Text from "../components/text";
 import MainServ from "../components/mainServ";
@@ -8,6 +8,14 @@ import Image from "../components/image";
 import ContactHome from "../components/contactHome";
 
 function Landing() {
+
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
 
   return (
     <>

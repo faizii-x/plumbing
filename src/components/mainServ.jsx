@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function MainServ() {
   return (
@@ -20,9 +21,11 @@ function MainServ() {
               across the UK, collaborating with various private firms and local
               authorities to deliver our comprehensive range of services.
             </p>
+            <Link to="/demolition">
             <div className="hover:bg-[#36A7A7] border border-[#36A7A7] flex justify-center items-center mt-6 w-[150px] mx-auto p-4 cursor-pointer rounded-lg">
               <button className="font-medium text-white">View More</button>
             </div>
+            </Link>
             </div>
           </div>
         </div>
@@ -37,9 +40,11 @@ function MainServ() {
             <p className="text-white mt-3  mx-auto text-[22px] ">
             Our plumbing services have played a key role in numerous projects across the UK, partnering with various private firms and local authorities to provide our comprehensive range of solutions.
             </p>
+            <Link to="/plumbing">
             <div className="hover:bg-[#36A7A7] border border-[#36A7A7] flex justify-center items-center mt-6 w-[150px] mx-auto p-4 cursor-pointer rounded-lg">
               <button className="font-medium text-white">View More</button>
             </div>
+            </Link>
             </div>
           </div>
         </div>

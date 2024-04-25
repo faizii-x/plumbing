@@ -12,12 +12,12 @@ function Footer() {
   return (
     <>
       <div className="bg-[#071818] p-3">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-[90%] container mx-auto">
-          <div className="">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 w-[90%] container mx-auto">
+          <div className="col-span-2 ">
             <Link to="/">
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="" className=" "/>
             </Link>
-            <p className="text-[14px] font-poppins font-light text-white">
+            <p className="text-[14px] font-poppins font-light text-white lg:w-[80%] w-full">
               Bringing Your Demolition and Plumbing Projects to Life. Trust our
               team of skilled professionals to deliver top-quality results,
               whether it's a large commercial project or a smaller residential
@@ -81,12 +81,12 @@ function Footer() {
               <img src={Locate} alt="" className="w-[18px] h-[18px] mt-[1px]" />
               <p className="text-white text-[16px] font-normal ">Location</p>
             </div>
-            <div className="mt-6 flex justify-start gap-2">
+            <div className="mt-3 flex justify-start gap-2">
               <img src={Call} alt="" className="w-[18px] h-[18px] mt-[1px]" />
               <p className="text-white text-[16px] font-normal ">Number</p>
             </div>
 
-            <div className="mt-6 flex justify-start gap-2">
+            <div className="mt-3 flex justify-start gap-2">
               <img src={Mess} alt="" className="w-[18px] h-[18px] mt-[1px]" />
               <p className="text-white text-[16px] font-normal ">
                 Mail@gmail.com

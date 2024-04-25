@@ -21,6 +21,15 @@ body::-webkit-scrollbar {
 }
 
 
+
+.imagebgwall {
+  background-image: url("../src/assets/png/wall.png");
+}
+
+.imagebgplum {
+  background-image: url("../src/assets/png/plumb.png");
+}
+
 .imagebgdemoo {
   background-image: url("../src/assets/png/deep.png");
 }

@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import Aboutdiv from "../../src/assets/png/aboutdiv.png";
+import ModalBook from "./modalBook";
 
 function Banner() {
+  const [hello, setHello] = useState(false);
+
+
+  const openModal = () => {
+    setHello(true);
+  };
+
+  const closeModal = () => {
+    setHello(false);
+  };
+
   return (
     <>
       <div className=" w-full lg:h-[390px] h-auto bg-cover bg-center bgimagebanner mt-6 p-6">
@@ -16,7 +28,7 @@ function Banner() {
             <p className="text-white text-[20px] mt-2 font-poppins font-medium">
               Feel free to reach out and tell us how we can assist you today.
             </p>
-            <div className="btny mt-5 gap-3">
+            <div className="btny mt-5 gap-3" onClick={openModal}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -36,6 +48,7 @@ function Banner() {
                 Book an Appointment
               </button>
             </div>
+            {hello && <ModalBook closeModal={closeModal} />}
           </div>
         </div>
       </div>
