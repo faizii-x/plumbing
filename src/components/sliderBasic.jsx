@@ -10,7 +10,7 @@ import YellowStar from "../../src/assets/svg/yellowStar.svg";
 import GrayStar from "../../src/assets/svg/grayStar.svg";
 
 function SlideBasic() {
-  var settings = {  
+  var settings = {
     dots: false,
     arrows: true,
     infinite: true,
@@ -50,33 +50,56 @@ function SlideBasic() {
     <>
       <div className="slider-container bg-[#98DEDE] mt-8">
         <h2 className="text-[28px] font-roboto font-bold text-center pt-[30px]">
-        What Our <span className="text-[#36A7A7] font-bold">Customers</span> have to say
+          What Our <span className="text-[#36A7A7] font-bold">Customers</span>{" "}
+          have to say
         </h2>
         <div className="p-8 lg:w-[80%] w-full mx-auto">
           <Slider {...settings}>
             <div className="">
               <div className="bg-white rounded-xl p-6 h-auto ">
                 <p className="text-[20px] font-roboto font-normal">
-                  “<span className="text-darkYellow">SM Electric</span>{" "}
-                  surpassed my expectations! Their technician, Mike, was prompt,
-                  knowledgeable, and fixed all our electrical issues
-                  efficiently. Highly recommend their services!.”
+                  Fantastic experience with
+                  <span className="text-[#36A7A7]">
+                    A1 Demolition & Plumbing
+                  </span>{" "}
+                  !.Their plumbing team, led by John, was professional, prompt,
+                  and resolved our plumbing issues with ease. Highly recommend
+                  their services!
                 </p>
                 <div className="flex justify-start gap-3 mt-2">
                   <div>
-                    <img src={Img} alt="" className="w-[70px] h-[70px]"/>
+                    <img src={Img} alt="" className="w-[70px] h-[70px]" />
                   </div>
                   <div>
                     <h4 className="text-[18px] font-roboto font-bold mt-3">
                       Sarah Thompson
                     </h4>
                     <div className="flex justify-start ">
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={GrayStar} alt="" className="w-[21px] h-[21px]"/>
-                      
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={GrayStar}
+                        alt=""
+                        className="w-[21px] h-[21px]"
+                      />
                     </div>
                   </div>
                 </div>
@@ -85,26 +108,49 @@ function SlideBasic() {
             <div className="p-3">
               <div className="bg-white rounded-xl p-6 h-auto">
                 <p className="text-[20px] font-roboto font-normal">
-                  “<span className="text-darkYellow">SM Electric</span> was
-                  amazing! They were prompt, efficient, and went the extra mile
-                  to make sure everything was perfect. Highly recommended their
-                  services!"
+                  Outstanding service from
+                  <span className="text-[#36A7A7]">
+                    A1 Demolition & Plumbing!
+                  </span>{" "}
+                  Their demolition crew, led by Mark, demolished our old
+                  structure efficiently and safely. Their attention to detail
+                  and professionalism were commendable. Highly satisfied with
+                  their work!
                 </p>
                 <div className="flex justify-start gap-3 mt-2">
                   <div>
-                    <img src={David} alt="" className="w-[70px] h-[70px]"/>
+                    <img src={David} alt="" className="w-[70px] h-[70px]" />
                   </div>
                   <div>
                     <h4 className="text-[18px] font-roboto font-bold mt-3">
                       David Johnson
                     </h4>
                     <div className="flex justify-start ">
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                      
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
                     </div>
                   </div>
                 </div>
@@ -113,27 +159,48 @@ function SlideBasic() {
             <div className="p-3">
               <div className="bg-white rounded-xl p-6 h-auto">
                 <p className="text-[20px] font-roboto font-normal">
-                  “I can't thank{" "}
-                  <span className="text-darkYellow">SM Electric Corp</span>{" "}
-                  enough for their excellent work. They were reliable,
-                  courteous, and their attention to detail was impeccable. Truly
-                  satisfied with their service!"
+                  Exceptional service from{" "}
+                  <span className="text-[#36A7A7]">
+                    A1 Demolition & Plumbing
+                  </span>{" "}
+                  !.Their demolition team, led by Alex, demolished our old
+                  structure efficiently and with great attention to detail.
+                  Highly recommend their services for any demolition project!
                 </p>
                 <div className="flex justify-start gap-3 mt-2">
                   <div>
-                    <img src={Michael} alt="" className="w-[70px] h-[70px]"/>
+                    <img src={Michael} alt="" className="w-[70px] h-[70px]" />
                   </div>
                   <div>
                     <h4 className="text-[18px] font-roboto font-bold mt-3">
                       Michael Brown
                     </h4>
                     <div className="flex justify-start ">
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={GrayStar} alt="" className="w-[21px] h-[21px]"/>
-                    
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={GrayStar}
+                        alt=""
+                        className="w-[21px] h-[21px]"
+                      />
                     </div>
                   </div>
                 </div>
@@ -142,27 +209,47 @@ function SlideBasic() {
             <div className="p-3">
               <div className="bg-white rounded-xl p-6 h-auto">
                 <p className="text-[20px] font-roboto font-normal">
-                  “ Working with{" "}
-                  <span className="text-darkYellow">SM Electric Corp</span> was
-                  a breeze. They were responsive, professional, and completed
-                  the job with utmost precision. I wouldn't hesitate to hire
-                  them again!"
+                  Great job by{" "}
+                  <span className="text-[#36A7A7]">
+                    A1 Demolition & Plumbing
+                  </span>
+                  !.Their team, led by Emily, fixed a major leak in our home
+                  promptly and professionally. Highly recommend their services!
                 </p>
                 <div className="flex justify-start gap-3 mt-2">
                   <div>
-                    <img src={Jenifer} alt="" className="w-[70px] h-[70px]"/>
+                    <img src={Jenifer} alt="" className="w-[70px] h-[70px]" />
                   </div>
                   <div>
                     <h4 className="text-[18px] font-roboto font-bold mt-3">
                       Jennifer Taylor
                     </h4>
                     <div className="flex justify-start ">
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                      
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
                     </div>
                   </div>
                 </div>
@@ -171,24 +258,37 @@ function SlideBasic() {
             <div className="p-3">
               <div className="bg-white rounded-xl p-6 h-auto">
                 <p className="text-[20px] font-roboto font-normal">
-                  “<span className="text-darkYellow">SM Electric Corp</span>{" "}
-                  work was outstanding. Their team was highly professional and
-                  cooperative. My entire family was impressed with their work,
-                  and we will definitely call them again next time.”
+                  Top-notch job by
+                  <span className="text-[#36A7A7]">
+                    A1 Demolition & Plumbing
+                  </span>{" "}
+                  !.Led by Alex, their team executed our project with precision.
+                  Highly recommended!
                 </p>
                 <div className="flex justify-start gap-3 mt-2">
                   <div>
-                    <img src={Jesica} alt="" className="w-[70px] h-[70px]"/>
+                    <img src={Jesica} alt="" className="w-[70px] h-[70px]" />
                   </div>
                   <div>
                     <h4 className="text-[18px] font-roboto font-bold mt-3">
                       Jessica Wilson
                     </h4>
                     <div className="flex justify-start ">
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={GrayStar} alt="" className="w-[21px] h-[21px]"/>
-                     
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={GrayStar}
+                        alt=""
+                        className="w-[21px] h-[21px]"
+                      />
                     </div>
                   </div>
                 </div>
@@ -197,25 +297,47 @@ function SlideBasic() {
             <div className="p-3">
               <div className="bg-white rounded-xl p-6 h-auto">
                 <p className="text-[20px] font-roboto font-normal">
-                  “<span className="text-darkYellow">SM Electric Corp</span>{" "}
-                  provided outstanding service! Their team was professional,
-                  efficient, and highly recommended!"
+                  Exceptional service from
+                  <span className="text-[#36A7A7]">
+                    A1 Demolition & Plumbing
+                  </span>{" "}
+                  !.Under Emily's leadership, they promptly resolved a major
+                  leak. Very impressed with their professionalism!
                 </p>
                 <div className="flex justify-start gap-3 mt-[36px]">
                   <div>
-                    <img src={Daniel} alt="" className="w-[70px] h-[70px]"/>
+                    <img src={Daniel} alt="" className="w-[70px] h-[70px]" />
                   </div>
                   <div>
                     <h4 className="text-[18px] font-roboto font-bold mt-3">
                       Daniel Thompson
                     </h4>
                     <div className="flex justify-start ">
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                        <img src={YellowStar} alt="" className="w-[25px] h-[25px]"/>
-                     
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
+                      <img
+                        src={YellowStar}
+                        alt=""
+                        className="w-[25px] h-[25px]"
+                      />
                     </div>
                   </div>
                 </div>

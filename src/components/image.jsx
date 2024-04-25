@@ -23,10 +23,11 @@ function Image() {
         Our Projects
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 w-[90%] mx-auto mt-6">
-        <div className="col-span-1">
-          <div className="md:flex grid justify-start gap-3 mb-3">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 w-[100%] mx-auto mt-6">
+        <div className="col-span-1 md:col-span-2 lg:col-span-1 mx-auto">
+          <div className="lg:flex grid justify-start gap-3 mb-3">
             <img
+            
               src={Image3}
               alt=""
               onClick={() => openModal(Image3)}
@@ -46,7 +47,7 @@ function Image() {
             style={{ cursor: "pointer" }}
           />
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1 md:col-span-2 lg:col-span-1 mx-auto">
           <img
             src={Image4}
             alt=""

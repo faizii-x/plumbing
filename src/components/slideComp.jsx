@@ -47,7 +47,7 @@ function SlideComp() {
       <div className="slider-container ">
         <Slider {...settings}>
           <div className=" w-full h-auto bg-cover bg-center slideImg p-8 mt-4">
-            <p className=" bg-[#36A7A7] rounded-md lg:w-[30%] md:w-[50%] w-full  text-black mx-auto text-center text-[32px] font-poppins font-bold ">
+            <p className=" bg-[#36A7A7] rounded-md lg:w-[22%] md:w-[40%] w-[60%]  text-white mx-auto text-center text-[32px] font-poppins font-bold ">
               RESIDENTIAL
             </p>
             <p className="text-white mt-3  mx-auto text-[22px]">
@@ -58,7 +58,7 @@ function SlideComp() {
             </p>
           </div>
           <div className=" w-full h-auto bg-cover bg-center slideImgg p-8 mt-4">
-            <p className=" bg-[#36A7A7] rounded-md lg:w-[30%] md:w-[50%] w-full  text-black mx-auto text-center text-[32px] font-poppins font-bold ">
+            <p className=" bg-[#36A7A7] rounded-md lg:w-[22%] md:w-[40%] w-[60%] text-white mx-auto text-center text-[32px] font-poppins font-bold ">
               INDUSTRIAL
             </p>
             <p className="text-white mt-3  mx-auto text-[22px]">
@@ -69,7 +69,7 @@ function SlideComp() {
             </p>
           </div>
           <div className=" w-full h-auto bg-cover bg-center slideImggg p-8 mt-4">
-            <p className=" bg-[#36A7A7] rounded-md lg:w-[30%] md:w-[50%] w-full  text-black mx-auto text-center text-[32px] font-poppins font-bold ">
+            <p className=" bg-[#36A7A7] rounded-md lg:w-[22%] md:w-[40%] w-[60%]  text-white mx-auto text-center text-[32px] font-poppins font-bold ">
               COMMERCIAL
             </p>
             <p className="text-white mt-3  mx-auto text-[22px]">

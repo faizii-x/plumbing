@@ -4,7 +4,7 @@ function Demoimg() {
   return (
     <>
       <div className=" w-full h-auto bg-cover bg-center imagebgdemo lg:p-[140px] p-8">
-        <div className="flex justify-center items-center bg-white w-[200px] mx-auto mt-8">
+        <div className="flex justify-center items-center bg-white w-[240px] mx-auto mt-8">
           <p className=" text-black text-[33px] font-poppins font-semibold ">
             DEMOLITION
           </p>

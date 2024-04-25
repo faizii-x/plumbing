@@ -11,7 +11,7 @@ function MainServ() {
         <div className="col-span-1">
           <div className=" w-full min-h-[280px] bg-cover bg-center backimg p-3  class-two">
            
-            <p className=" bg-white lg:w-[50%] md:w-[70%] flex justify-center items-center  text-black mx-auto text-center text-[32px] font-poppins font-bold ">
+            <p className=" bg-white lg:w-[50%] md:w-[70%] w-[70%] flex justify-center items-center  text-black mx-auto text-center text-[32px] font-poppins font-bold ">
               DEMOLITION
             </p>
             
@@ -32,7 +32,7 @@ function MainServ() {
         <div className="col-span-1">
           <div className=" w-full min-h-[280px] bg-cover bg-center backimg1 p-3  class-two">
            
-            <p className=" bg-white lg:w-[50%] md:w-[70%] flex justify-center items-center  text-black mx-auto text-center text-[32px] font-poppins font-bold ">
+            <p className=" bg-white lg:w-[50%] md:w-[70%] w-[65%] flex justify-center items-center  text-black mx-auto text-center text-[32px] font-poppins font-bold ">
             PLUMBING
             </p>
             
