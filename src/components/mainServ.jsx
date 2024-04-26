@@ -9,7 +9,7 @@ function MainServ() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 mx-auto mt-4">
         <div className="col-span-1">
-          <div className=" w-full h-[280px] bg-cover bg-center overflow-hidden backimg p-3">
+          <div className=" w-full h-[290px] bg-cover bg-center overflow-hidden backimg p-3">
            <div className="class-two ">
             <p className=" bg-white lg:w-[50%] md:w-[70%] w-[70%] flex justify-center items-center  text-black mx-auto text-center text-[32px] font-poppins font-bold ">
               DEMOLITION
@@ -31,7 +31,7 @@ function MainServ() {
           </div>
         </div>
         <div className="col-span-1">
-          <div className=" w-full h-[280px] bg-cover bg-center overflow-hidden backimg1 p-3">
+          <div className=" w-full h-[290px] bg-cover bg-center overflow-hidden backimg1 p-3">
            <div className="class-two ">
             <p className=" bg-white lg:w-[50%] md:w-[70%] w-[70%] flex justify-center items-center  text-black mx-auto text-center text-[32px] font-poppins font-bold ">
               PLUMBING

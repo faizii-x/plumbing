@@ -82,7 +82,7 @@ body::-webkit-scrollbar {
   transition: 0.5s linear;
 }
 .class-two {
-  padding-top: 120px;
+  padding-top: 180px;
   /* display: flex; */
   justify-content: center;
   align-items: center;
@@ -215,7 +215,7 @@ body::-webkit-scrollbar {
 .animated-icon {
   animation: animateIcon 1s ease forwards infinite;
 }
-
+   
 .class-set-message-input {
   width: 80%;
 }
