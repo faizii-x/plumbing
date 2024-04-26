@@ -8,11 +8,11 @@ function BigTwo() {
         Our Other Main Service
       </h2>
 
-      <div className=" w-[90%] mx-auto rounded-3xl h-auto bg-cover bg-center imagebgwall p-8 mb-6 mt-6">
+      <div className=" w-[90%] mx-auto rounded-3xl h-auto bg-cover bg-center imagebgwall lg:p-8 p-4 mb-6 mt-6">
         <div className="bg-white w-[170px] p-3 flex justify-center items-center mx-auto">
           <h4 className="text-[22px] font-bold">DEMOLITION</h4>
         </div>
-        <p className="text-[28px] font-medium text-center text-white">
+        <p className="lg:text-[28px] text-[18px] font-medium text-center text-white">
           Explore customized Demolition solutions designed just for you. Our
           careful planning and expert execution ensure safety and efficiency
           throughout every project.

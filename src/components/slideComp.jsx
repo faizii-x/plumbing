@@ -50,7 +50,7 @@ function SlideComp() {
             <p className=" bg-[#36A7A7] rounded-md lg:w-[22%] md:w-[40%] w-[60%]  text-white mx-auto text-center text-[28px] font-poppins font-bold ">
               RESIDENTIAL
             </p>
-            <p className="text-white mt-3 text-center w-[80%] mx-auto text-[22px]">
+            <p className="text-white mt-3 text-center lg:w-[80%] w-full mx-auto text-[22px]">
               Our demolition and plumbing services cater to residential
               projects, offering comprehensive solutions such as kitchen and
               bathroom gutting, roof demolition, garage and chimney destruction,
@@ -61,7 +61,7 @@ function SlideComp() {
             <p className=" bg-[#36A7A7] rounded-md lg:w-[22%] md:w-[40%] w-[60%] text-white mx-auto text-center text-[28px] font-poppins font-bold ">
               INDUSTRIAL
             </p>
-            <p className="text-white mt-3 text-center w-[80%] mx-auto text-[22px]">
+            <p className="text-white mt-3 text-center lg:w-[80%] w-full mx-auto text-[22px]">
               Our industrial services cover demolition and plumbing needs in
               industrial settings, offering efficient solutions for dismantling
               structures and upgrading plumbing systems in factories and
@@ -72,7 +72,7 @@ function SlideComp() {
             <p className=" bg-[#36A7A7] rounded-md lg:w-[22%] md:w-[40%] w-[60%]  text-white mx-auto text-center text-[28px] font-poppins font-bold ">
               COMMERCIAL
             </p>
-            <p className="text-white mt-3 text-center w-[80%] mx-auto text-[22px]">
+            <p className="text-white mt-3 text-center lg:w-[80%] w-full mx-auto text-[22px]">
               Our demolition and plumbing services for commercial projects
               encompass various aspects such as demolishing existing structures,
               clearing interior spaces, and addressing plumbing needs specific

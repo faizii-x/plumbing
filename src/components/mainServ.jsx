@@ -16,7 +16,7 @@ function MainServ() {
             </p>
             
             <div className="class-hiden">
-            <p className="text-white mt-3  mx-auto text-[22px] clas-opacity-text">
+            <p className="text-white mt-3  mx-auto lg:text-[22px] text-[16px] clas-opacity-text">
               Our Demolition Services have been integral to numerous projects
               across the UK, collaborating with various private firms and local
               authorities to deliver our comprehensive range of services.
@@ -38,7 +38,7 @@ function MainServ() {
             </p>
             
             <div className="class-hiden">
-            <p className="text-white mt-3  mx-auto text-[22px] clas-opacity-text">
+            <p className="text-white mt-3  mx-auto lg:text-[22px] text-[16px] clas-opacity-text">
             Our Plumbing services have played a key role in numerous projects across the UK, partnering with various private firms and local authorities to provide our comprehensive range of solutions.
             </p>
             <Link to="/demolition">

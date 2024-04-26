@@ -9,11 +9,11 @@ function Bigimage() {
         Our Other Main Service
       </h2>
 
-      <div className=" w-[90%] mx-auto rounded-3xl h-auto bg-cover bg-center imagebgdemoo p-8 mb-6 mt-6">
+      <div className=" w-[90%] mx-auto rounded-3xl h-auto bg-cover bg-center imagebgdemoo lg:p-8 p-4 mb-6 mt-6">
         <div className="bg-white w-[170px] p-3 flex justify-center items-center mx-auto">
           <h4 className="text-[22px] font-bold">PLUMBING</h4>
         </div>
-        <p className="text-[28px] font-medium text-center text-white">
+        <p className="lg:text-[28px] text-[18px] mt-2 font-medium text-center text-white">
           Experience tailored plumbing solutions for your needs. Our precise
           planning and expert execution ensure safety and efficiency in every
           project.
