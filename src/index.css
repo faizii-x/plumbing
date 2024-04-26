@@ -82,7 +82,7 @@ body::-webkit-scrollbar {
   transition: 0.5s linear;
 }
 .class-two {
-  padding-top: 180px;
+  padding-top: 120px;
   /* display: flex; */
   justify-content: center;
   align-items: center;
