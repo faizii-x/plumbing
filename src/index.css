@@ -8,7 +8,7 @@
 body::-webkit-scrollbar {
   display: none;
 }
-.btny{
+.btny {
   width: 280px;
   padding: 14px;
   border-radius: 10px;
@@ -17,9 +17,8 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: linear-gradient(120deg, #36A7A7, #36A7A7);
+  background-color: linear-gradient(120deg, #36a7a7, #36a7a7);
 }
-
 
 .imagebgwall {
   background-image: url("../src/assets/png/wall.png");
@@ -43,7 +42,6 @@ body::-webkit-scrollbar {
 .imagebgdemo {
   background-image: url("../src/assets/png/demo.png");
 }
-
 
 .imagebg {
   background-image: url("../src/assets/png/wall1.png");
@@ -77,25 +75,35 @@ body::-webkit-scrollbar {
   background-image: url("../src/assets/png/slide3.png");
 }
 .class-hiden {
-  display: none;
+  /* display: ; */
 }
 .class-two:hover .class-hiden {
   display: block;
   transition: 0.5s linear;
 }
 .class-two {
-  display: flex;
+  padding-top: 120px;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   transition: 0.5s;
 }
 
 .class-two:hover {
-  display: flex;
+  /* display: flex; */
+  padding-top: 0px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   transition: 0.5s;
+}
+.class-two:hover .clas-opacity-text {
+  opacity: 1;
+  transition: 0.5s linear;
+}
+.clas-opacity-text {
+  opacity: 0;
+  transition: 0.5s linear;
 }
 
 .button-container {
@@ -176,7 +184,7 @@ body::-webkit-scrollbar {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.137);
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,8 +198,7 @@ body::-webkit-scrollbar {
 .modal-image {
   max-width: 100%;
   max-height: 100%;
-  display: block;
-  margin: 0 auto;
+  object-fit: contain;
 }
 
 @keyframes animateIcon {
@@ -209,9 +216,20 @@ body::-webkit-scrollbar {
   animation: animateIcon 1s ease forwards infinite;
 }
 
+.class-set-message-input {
+  width: 80%;
+}
 
-.class-set-message-input{
-width: 80%;
+@media only screen and (max-width: 1300px) {
+  .class-grid-manage {
+    display: grid;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .class-grid {
+    display: grid;
+  }
 }
 
 @media only screen and (max-width: 1024px) {

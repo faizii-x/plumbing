@@ -3,13 +3,13 @@ import React from "react";
 function ContactImg() {
   return (
     <>
-      <div className=" w-full h-auto bg-cover bg-center imagebgcontact  lg:p-[140px] p-8 ">
+      <div className=" w-full h-auto bg-cover bg-center imagebgcontact  lg:p-[88px] p-8 ">
         <div className="flex justify-center items-center bg-white w-[240px] mx-auto mt-8">
           <p className=" text-black text-[33px] font-poppins font-semibold">
             CONTACT US
           </p>
         </div>
-        <p className=" text-white text-[20px] font-poppins font-normal mt-3 lg:w-[70%] w-full mx-auto">
+        <p className=" text-white text-[26px] text-center font-poppins font-normal mt-8 lg:w-[90%] w-full mx-auto">
         Do you have any questions or need assistance? Don't hesitate to reach out. Send us a message, and let's begin the conversation.
         </p>
         <div className="">

@@ -154,7 +154,7 @@ function Counter() {
             duration={15}
             formattingFn={formatValue}
             redraw={true}
-            step={10} // Increment by 10
+            step={10} 
           />
           <p className="mt-[10px] ml-2 text-[#36A7A7] text-[50px]">+</p>
         </div>
@@ -170,7 +170,7 @@ function Counter() {
             end={100}
             duration={15}
             formattingFn={formatValue}
-            step={100} // Increment by 100
+            step={100} 
           />
           <p className="mt-[10px] ml-2 text-[#36A7A7] text-[50px]">+</p>
         </div>
@@ -184,7 +184,7 @@ function Counter() {
             end={500}
             duration={15}
             formattingFn={formatValue}
-            step={100} // Increment by 100
+            step={100} 
           />
           <p className="mt-[10px] ml-2 text-[#36A7A7] text-[50px]">+</p>
         </div>

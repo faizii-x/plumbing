@@ -3,13 +3,13 @@ import React from "react";
 function AboutImg() {
   return (
     <>
-      <div className=" w-full h-auto bg-cover bg-center imagebgabout  lg:p-[140px] p-8">
+      <div className=" w-full h-auto bg-cover bg-center imagebgabout  lg:p-[88px] p-8">
         <div className="flex justify-center items-center bg-white w-[200px] mx-auto mt-8">
           <p className=" text-black text-[33px] font-poppins font-semibold ">
             ABOUT US
           </p>
         </div>
-        <p className=" text-white text-[20px] font-poppins font-normal mt-3 lg:w-[70%] w-full mx-auto">
+        <p className=" text-white text-[26px] text-center font-poppins font-normal mt-8 lg:w-[90%] w-full mx-auto">
           Our experienced and highly capable teams have a solid history of
           completing successful projects in various sectors and locations.
         </p>

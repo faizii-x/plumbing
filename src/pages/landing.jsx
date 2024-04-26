@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Hero from "../components/hero";
 import Text from "../components/text";
 import MainServ from "../components/mainServ";
@@ -8,8 +8,6 @@ import Image from "../components/image";
 import ContactHome from "../components/contactHome";
 
 function Landing() {
-
-
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -19,15 +17,13 @@ function Landing() {
 
   return (
     <>
-     
-      <Hero/>
+      <Hero />
       <Text />
       <MainServ />
-      <SlideComp/>
-      <Choose/>
-      <Image/>
-      <ContactHome/>
-    
+      <SlideComp />
+      <Choose />
+      <Image />
+      <ContactHome />
     </>
   );
 }

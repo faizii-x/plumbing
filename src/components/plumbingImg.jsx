@@ -3,13 +3,13 @@ import React from "react";
 function PlumbImg() {
   return (
     <>
-      <div className=" w-full h-auto bg-cover bg-center imagebgplum lg:p-[140px] p-8">
+      <div className=" w-full h-auto bg-cover bg-center imagebgplum lg:p-[70px] p-8">
         <div className="flex justify-center items-center bg-white w-[200px] mx-auto mt-8">
           <p className=" text-black text-[33px] font-poppins font-semibold ">
             PLUMBING
           </p>
         </div>
-        <p className=" text-white text-[20px] font-poppins font-semibold mt-3 lg:w-[70%] w-full mx-auto">
+        <p className=" text-white text-[26px] text-center font-poppins font-normal mt-8 lg:w-[90%] w-full mx-auto">
         Experience tailored plumbing solutions for your needs. Our precise planning and expert execution ensure safety and efficiency in every project."
         </p>
         <div className="">
@@ -19,7 +19,7 @@ function PlumbImg() {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="w-16 h-16 text-white mx-auto mt-16 animated-icon"
+            className="w-16 h-16 text-white mx-auto mt-8 animated-icon"
           >
             <path
               stroke-linecap="round"

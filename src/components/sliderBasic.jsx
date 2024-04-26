@@ -55,8 +55,8 @@ function SlideBasic() {
         </h2>
         <div className="p-8 lg:w-[80%] w-full mx-auto">
           <Slider {...settings}>
-            <div className="">
-              <div className="bg-white rounded-xl p-6 h-auto ">
+            <div className="p-3">
+              <div className="bg-white rounded-xl p-6 lg:h-[300px] h-auto">
                 <p className="text-[20px] font-roboto font-normal">
                   Fantastic experience with
                   <span className="text-[#36A7A7]">
@@ -66,7 +66,7 @@ function SlideBasic() {
                   and resolved our plumbing issues with ease. Highly recommend
                   their services!
                 </p>
-                <div className="flex justify-start gap-3 mt-2">
+                <div className="flex justify-start gap-3 mt-8">
                   <div>
                     <img src={Img} alt="" className="w-[70px] h-[70px]" />
                   </div>
@@ -106,7 +106,7 @@ function SlideBasic() {
               </div>
             </div>
             <div className="p-3">
-              <div className="bg-white rounded-xl p-6 h-auto">
+              <div className="bg-white rounded-xl p-6 lg:h-[300px] h-auto">
                 <p className="text-[20px] font-roboto font-normal">
                   Outstanding service from
                   <span className="text-[#36A7A7]">
@@ -157,11 +157,11 @@ function SlideBasic() {
               </div>
             </div>
             <div className="p-3">
-              <div className="bg-white rounded-xl p-6 h-auto">
+              <div className="bg-white rounded-xl p-6 lg:h-[300px] h-auto">
                 <p className="text-[20px] font-roboto font-normal">
                   Exceptional service from{" "}
                   <span className="text-[#36A7A7]">
-                    A1 Demolition & Plumbing
+                     A1 Demolition & Plumbing
                   </span>{" "}
                   !.Their demolition team, led by Alex, demolished our old
                   structure efficiently and with great attention to detail.
@@ -207,7 +207,7 @@ function SlideBasic() {
               </div>
             </div>
             <div className="p-3">
-              <div className="bg-white rounded-xl p-6 h-auto">
+              <div className="bg-white rounded-xl p-6 lg:h-[300px] h-auto">
                 <p className="text-[20px] font-roboto font-normal">
                   Great job by{" "}
                   <span className="text-[#36A7A7]">
@@ -256,7 +256,7 @@ function SlideBasic() {
               </div>
             </div>
             <div className="p-3">
-              <div className="bg-white rounded-xl p-6 h-auto">
+              <div className="bg-white rounded-xl p-6 lg:h-[300px] h-auto">
                 <p className="text-[20px] font-roboto font-normal">
                   Top-notch job by
                   <span className="text-[#36A7A7]">
@@ -265,7 +265,7 @@ function SlideBasic() {
                   !.Led by Alex, their team executed our project with precision.
                   Highly recommended!
                 </p>
-                <div className="flex justify-start gap-3 mt-2">
+                <div className="flex justify-start gap-3 mt-8">
                   <div>
                     <img src={Jesica} alt="" className="w-[70px] h-[70px]" />
                   </div>
@@ -295,7 +295,7 @@ function SlideBasic() {
               </div>
             </div>
             <div className="p-3">
-              <div className="bg-white rounded-xl p-6 h-auto">
+              <div className="bg-white rounded-xl p-6 lg:h-[300px] h-auto">
                 <p className="text-[20px] font-roboto font-normal">
                   Exceptional service from
                   <span className="text-[#36A7A7]">

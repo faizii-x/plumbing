@@ -23,63 +23,41 @@ function Image() {
         Our Projects
       </h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 w-[100%] mx-auto mt-6">
-        <div className="col-span-1 md:col-span-2 lg:col-span-1 mx-auto">
-          <div className="lg:flex grid justify-start gap-3 mb-3">
+      <div className="flex justify-center gap-4 w-[90%] mx-auto mt-6 class-grid-manage">
+        <div>
+          <div className="flex justify-center gap-3 class-grid ">
             <img
-            
               src={Image3}
               alt=""
+              className=""
               onClick={() => openModal(Image3)}
-              style={{ cursor: "pointer" }}
             />
-            <img
-              src={Image2}
-              alt=""
-              onClick={() => openModal(Image2)}
-              style={{ cursor: "pointer" }}
-            />
+            <img src={Image2} alt="" onClick={() => openModal(Image2)} />
           </div>
           <img
             src={Image1}
             alt=""
+            className="mt-3"
             onClick={() => openModal(Image1)}
-            style={{ cursor: "pointer" }}
           />
         </div>
-        <div className="col-span-1 md:col-span-2 lg:col-span-1 mx-auto">
-          <img
-            src={Image4}
-            alt=""
-            onClick={() => openModal(Image4)}
-            style={{ cursor: "pointer" }}
-          />
 
-          <div className="md:flex grid justify-start gap-4 mt-4">
-            <img
-              src={Image5}
-              alt=""
-              onClick={() => openModal(Image5)}
-              style={{ cursor: "pointer" }}
-            />
-            <img
-              src={Image6}
-              alt=""
-              onClick={() => openModal(Image6)}
-              style={{ cursor: "pointer" }}
-            />
+        <div className="mt-[1px]">
+          <img src={Image4} alt="" onClick={() => openModal(Image4)} />
+          <div className="flex justify-center gap-4 mt-[17px] class-grid">
+            <img src={Image5} alt="" onClick={() => openModal(Image5)} />
+            <img src={Image6} alt="" onClick={() => openModal(Image6)} />
           </div>
         </div>
       </div>
-
       {selectedImage && (
         <div className="modal" onClick={closeModal}>
           <div className="modal-content">
             <img
-              className=""
+              className="modal-image"
               src={selectedImage}
               alt=""
-              style={{ width: "100%", height: "100%" }}
+              style={{ width: "700px", height: "500px" }}
             />
           </div>
         </div>

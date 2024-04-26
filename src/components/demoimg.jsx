@@ -3,13 +3,13 @@ import React from "react";
 function Demoimg() {       
   return (
     <>
-      <div className=" w-full h-auto bg-cover bg-center imagebgdemo lg:p-[140px] p-8">
+      <div className=" w-full h-auto bg-cover bg-center imagebgdemo lg:p-[54px] p-8">
         <div className="flex justify-center items-center bg-white w-[240px] mx-auto mt-8">
           <p className=" text-black text-[33px] font-poppins font-semibold ">
             DEMOLITION
           </p>
         </div>
-        <p className=" text-white text-[20px] font-poppins font-semibold mt-3 lg:w-[70%] w-full mx-auto">
+        <p className=" text-white text-[26px] text-center font-poppins font-normal mt-8 lg:w-[90%] w-full mx-auto">
           Explore customized Demolition solutions designed just for you. Our
           careful planning and expert execution ensure safety and efficiency
           throughout every project.
